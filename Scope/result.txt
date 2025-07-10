@@ -1,0 +1,6 @@
+Section 1 - distance not in the scoop so the lust line will fiald.
+Section 2 - cowSound parm in the first scoop so the else can't call him.
+Section 3 - will works perfect (:
+Section 4 - The plant function can't call the seed parameter because he is in another scoop.
+Section 5 - found parameter  dead after the if scoop so the function doesUserExist can't return him 
+Section 6 - you can't change a const parameter
