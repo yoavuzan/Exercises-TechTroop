@@ -1,8 +1,8 @@
 const coffeeShop = {
   money: 100,
-  buyBeans: function (numBeans) {
+  buyBeans: function (numBeans, price) {
     if (this.money - numBeans > 0) {
-      this.money -= this.drinkRequirements.price;
+      this.money -= price ;
       this.beans += numBeans;
     } else {
       console.log("you don't have enough to buy beans");
@@ -26,7 +26,8 @@ const coffeeShop = {
         this.beans -= beanRequirement;
         console.log("have a good day");
       } else {
-        this.buyBeans(beanRequirement);
+        let price = this.drinkRequirements[drinkType].price;
+        this.buyBeans(beanRequirement,price);
       }
     } else {
       console.log("Sorry, we don't make filtered");
