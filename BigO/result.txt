@@ -1,0 +1,6 @@
+Exercise 1 - O(n)
+Exercise 2 -O(1..2..4..8)= O(logn)- because it is all times going in a mult of 2
+Exercise 3 - getHype took O(4) => O(1) {every commend took only o(1)}
+Exercise 4 -O(n*m)
+Exercise 5 -send mail to evry one took o(n) when n is the number of recipients.
+Exercise 9 - The green line is o(1), the yellow line is o(log (n)), the blue line is (o(n)), and the red line is o(n^2)
