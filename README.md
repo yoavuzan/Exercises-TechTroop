@@ -44,7 +44,7 @@ Each folder represents a specific topic or concept I practiced. These files are 
 To run or test the code:
 
 ```bash
-git clone https://github.com/your-username/Exercises-TechTroop.git
+git clone https://github.com/your-username/Exercises-TechTroop-JS.git
 cd Exercises-TechTroop
 npm install
 npm test
