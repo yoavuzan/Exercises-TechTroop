@@ -48,12 +48,12 @@ export default class AutoCompleteTrie {
 
   predictWords(prefix) {
     const lastNode = this._getRemainingTree(prefix, this);
+    if (!lastNode) return [];
     const allWords = [];
     this._allWordsHelper(prefix, lastNode, allWords);
     return allWords;
   }
 }
-
 
 // const trie = new AutoCompleteTire();
 // trie.addWord("cat");
