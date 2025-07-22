@@ -1,6 +1,8 @@
 # Exercises-TechTroop
 
-A comprehensive JavaScript learning repository containing categorized exercises designed to strengthen core programming skills, data structures, algorithms, and OOP concepts. Perfect for practice, interviews, and self-study.
+This repository is a personal archive of JavaScript exercises I completed as part of my self-study journey. It includes solutions I wrote while exploring topics like data structures, algorithms, OOP, functional programming, and more.
+
+Each folder represents a specific topic or concept I practiced. These files are **not tasks for others to solve**, but rather a record of the tasks **I wrote and solved** to reinforce my understanding.
 
 ---
 
@@ -8,39 +10,41 @@ A comprehensive JavaScript learning repository containing categorized exercises 
 
 | Folder Name            | Description |
 |------------------------|-------------|
-| **Array-Method**       | Exercises focused on using built-in JavaScript array methods such as `.map()`, `.filter()`, `.reduce()`, `.forEach()`, etc. |
-| **BigO**               | Tasks and explanations related to time and space complexity, helping understand performance in algorithm design. |
-| **Callback-And-Arrow** | Practice with callback functions and ES6 arrow function syntax. Great for mastering async and functional programming patterns. |
-| **Console-App-And-Input** | Mini console applications and input/output handling exercises using Node.js. |
-| **Data-structure**     | Includes two exercises focusing on key data structures like stacks, queues, and linked lists. |
-| **Error-Handling**     | Self-written challenges to explore JavaScript error types, throwing and catching exceptions, and validating inputs. |
-| **Loops**              | Core exercises to practice `for`, `while`, and `do...while` loops, including nested iterations and pattern problems. |
-| **OOP-Inheritance**    | Object-Oriented Programming tasks covering inheritance, class structure, constructors, and prototypes. |
-| **Objects**            | JavaScript object manipulation tasks, including property access, method creation, and key-value handling. |
-| **Others**             | Miscellaneous JavaScript problems that don't fall into other categories. |
-| **Recursion**          | Recursive problem-solving practice including factorials, Fibonacci, and custom recursive algorithms. |
-| **Scope**              | Covers all scope types in JavaScript — global, local, block, function scope, and closures. |
-| **Trees**              | Tree data structure exercises including traversal (preorder, inorder, postorder), insertion, and deletion. |
-| **condition**          | Exercises to practice conditional logic: `if`, `else if`, `switch`, ternary operator, etc. |
-| **finalProject**       | Final organized console app project combining all key concepts: input, data structures, OOP, and control flow. |
-| **function**           | Basic function creation and usage exercises. Includes parameters, return values, and function expressions. |
-| **uniTest**            | Unit tests for validating the correctness of exercises using Jest or other testing strategies. |
+| **Array-Method**       | My solutions for tasks focused on using array methods like `.map()`, `.filter()`, `.reduce()`, etc. |
+| **BigO**               | My implementations and notes on time and space complexity analysis. |
+| **Callback-And-Arrow** | Exercises I wrote to practice callback functions and arrow functions. |
+| **Console-App-And-Input** | Console-based apps I built to explore user input and output handling using Node.js. |
+| **Data-structure**     | A few exercises implementing basic data structures like stacks, queues, and linked lists. |
+| **Error-Handling**     | Self-made tasks exploring how JavaScript handles errors, exceptions, and validations. |
+| **Loops**              | Classic loop-based problems I solved using `for`, `while`, and `do...while`. |
+| **OOP-Inheritance**    | Practice tasks I created to understand classes, inheritance, and object-oriented design. |
+| **Objects**            | Exercises involving object creation, access, and manipulation in JavaScript. |
+| **Others**             | A mix of general exercises that didn’t belong to a specific category. |
+| **Recursion**          | Recursive functions I implemented to solve common problems. |
+| **Scope**              | Practice tasks to understand JavaScript’s scope rules and closures. |
+| **Trees**              | My implementations of basic tree operations: insert, search, and traversal. |
+| **condition**          | If/else, switch, and ternary logic problems I solved. |
+| **finalProject**       | A larger console app I created to integrate everything I had learned. |
+| **function**           | Basic function definition and invocation practice. |
+| **uniTest**            | Jest-based tests I wrote to validate some of my solutions. |
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - JavaScript (ES6+)
 - Node.js
-- Jest (for testing)
-- npm (for package management)
+- Jest (for some unit tests)
+- npm
 
 ---
 
-## 🚀 Getting Started
+## 📦 Getting Started
 
-### 1. Clone the repository
+To run or test the code:
 
 ```bash
 git clone https://github.com/your-username/Exercises-TechTroop.git
 cd Exercises-TechTroop
+npm install
+npm test
